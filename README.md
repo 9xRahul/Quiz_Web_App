@@ -22,7 +22,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/your_username/quiz_app.git
+   git clone https://github.com/your_username/Quiz_Web_App.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -40,11 +40,11 @@ To get a local copy up and running, follow these simple steps.
 ## Project Structure
 - `lib/main.dart` - Entry point of the application
 - `lib/bloc/` - contains bussines logic componets and states for the app
-- `lib/repositories/` - handles ofline and online data featching for repos
+- `lib/repositories/` - handles ofline and online data featching for repos (api created with nodejs and offline storage)
 - `lib/widgets/` - Contains UI components (e.g., question cards, option buttons)
 - `lib/services/` - Contains backend or logic services (e.g., shared preferences)
 
-## Dependencies
+## Depedencies
 - `shared_preferences` - For local storage
 
 ## License
