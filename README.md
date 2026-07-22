@@ -39,6 +39,8 @@ To get a local copy up and running, follow these simple steps.
 
 ## Project Structure
 - `lib/main.dart` - Entry point of the application
+- `lib/bloc/` - contains bussines logic componets and states for the app
+- `lib/repositories/` - handles ofline and online data featching for repos
 - `lib/widgets/` - Contains UI components (e.g., question cards, option buttons)
 - `lib/services/` - Contains backend or logic services (e.g., shared preferences)
 
